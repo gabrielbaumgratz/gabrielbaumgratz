@@ -1,14 +1,17 @@
 <div align="center">
 
-  <!-- BANNER SUPERIOR VISUAL / GAMER & CINÉFILO -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,20&height=180&section=header&text=GABRIEL%20BAUMGRATZ&fontSize=42&fontAlignY=36&desc=Desenvolvedor%20de%20Software%20•%20Inteligência%20Artificial%20•%20UI/UX&descSize=16&descAlignY=58" width="100%" alt="Gabriel Baumgratz" />
+  <!-- ANIMAÇÃO SUPERIOR COM AS CORES PANTONE (P 105-8 C, P 48-8 C, 938 C) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=293F76,EE212E,FCEEA8&height=120&section=header" width="100%" alt="Header Wave" />
 
-  <br>
+  <!-- BANNER GRÁFICO CUSTOMIZADO -->
+  <img src="./banner.png" width="100%" alt="Gabriel Baumgratz Banner" />
 
-  <!-- BOTÕES DAS REDES E SITE LOGO NO TOPO -->
+  <br><br>
+
+  <!-- BOTÕES DAS REDES E PORTFÓLIO NO TOPO -->
   <p>
     <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfólio%20&%20Freelas-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Site e Freelas" />
+      <img src="https://img.shields.io/badge/Portfólio%20&%20Freelas-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/" target="_blank">
@@ -22,7 +25,7 @@
 
   <br>
 
-  <!-- APRESENTAÇÃO COMPACTA + FOTO ASCII -->
+  <!-- APRESENTAÇÃO + FOTO ASCII -->
   <table>
     <tr>
       <td align="center" valign="middle" width="370">
@@ -30,43 +33,71 @@
       </td>
       <td valign="middle" width="480">
         <h2>Gabriel Baumgratz</h2>
-        <p><b>Foco de Carreira:</b> Estágio & Vagas Jr (Desenvolvimento de Software / Fullstack / IA)</p>
+        <p>Desenvolvedor de Software com atuação em aplicações web, mobile e integrações com inteligência artificial.</p>
+        <p><b>Foco:</b> Estágio em TI &amp; Vagas Jr (Desenvolvimento / Fullstack / IA)</p>
         <p><b>Formação:</b> Análise e Desenvolvimento de Sistemas — PUC Minas (2024 - 2027)</p>
-        <p><b>Stack Principal:</b> React, React Native, Node.js, Python, Tailwind CSS & IA</p>
-        <p><b>Disponibilidade:</b> Aberto para oportunidades de estágio, contratação e freelas</p>
+        <p><b>Stack Principal:</b> React, React Native, Node.js, Python, Tailwind CSS &amp; APIs de IA</p>
+        <p><b>Disponibilidade:</b> Aberto para oportunidades de estágio, contratação e projetos freela</p>
       </td>
     </tr>
   </table>
 
   <br>
 
-  <!-- PROJETOS EM DESTAQUE (DIRETO AO PONTO) -->
-  <h2>Projetos em Destaque</h2>
+  <!-- PROJETOS REAIS DO GITHUB -->
+  <h2>Projetos no GitHub</h2>
 
   <table>
-    <tr>
-      <td width="33%" align="center">
-        <b>Talent Scan IA</b><br>
-        <sub>Análise inteligente de currículos com IA e adequação para vagas</sub><br><br>
-        <img src="https://img.shields.io/badge/Python-IA%20%26%20LLMs-3776AB?style=flat-square&logo=python&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/React-Interface-61DAFB?style=flat-square&logo=react&logoColor=black" /><br><br>
-        <a href="https://gabrielbaumgratz.vercel.app/"><b>[ Ver Projeto ]</b></a>
-      </td>
-      <td width="33%" align="center">
-        <b>App Mobile de Gestão</b><br>
-        <sub>Aplicativo multiplataforma com sincronização em tempo real</sub><br><br>
-        <img src="https://img.shields.io/badge/React%20Native-Mobile-61DAFB?style=flat-square&logo=react&logoColor=black" /><br>
-        <img src="https://img.shields.io/badge/Firebase-Nuvem-FFCA28?style=flat-square&logo=firebase&logoColor=black" /><br><br>
-        <a href="https://gabrielbaumgratz.vercel.app/"><b>[ Ver Projeto ]</b></a>
-      </td>
-      <td width="33%" align="center">
-        <b>Portfólio &amp; Interface</b><br>
-        <sub>Plataforma web de serviços com foco em design e performance</sub><br><br>
-        <img src="https://img.shields.io/badge/Tailwind-UI/UX-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Vercel-Deploy-000000?style=flat-square&logo=vercel&logoColor=white" /><br><br>
-        <a href="https://gabrielbaumgratz.vercel.app/"><b>[ Abrir no Ar ]</b></a>
-      </td>
-    </tr>
+    <thead>
+      <tr>
+        <th align="left">Repositório</th>
+        <th align="left">Descrição do Projeto</th>
+        <th align="left">Tecnologias</th>
+        <th align="center">Link GitHub</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>MEIFLOW</b></td>
+        <td>Aplicativo mobile para gestão de pequenos negócios, com autenticação, relatórios em PDF, Context API e sincronização em nuvem.</td>
+        <td><code>React Native</code> <code>Firebase</code> <code>Firestore</code></td>
+        <td align="center">
+          <a href="https://github.com/gabrielbaumgratz/MEIFLOW"><b>[ Repositório ]</b></a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>wii-webcam-videogame</b></td>
+        <td>Jogo interativo no navegador controlado por visão computacional e detecção de movimento em tempo real via webcam.</td>
+        <td><code>JavaScript</code> <code>Webcam API</code> <code>Game Dev</code></td>
+        <td align="center">
+          <a href="https://github.com/gabrielbaumgratz/wii-webcam-videogame"><b>[ Repositório ]</b></a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>monitor-surebets</b></td>
+        <td>Sistema em Python para monitoramento algorítmico, raspagem de dados esportivos e identificação de oportunidades de arbitragem.</td>
+        <td><code>Python</code> <code>Web Scraping</code> <code>Data</code></td>
+        <td align="center">
+          <a href="https://github.com/gabrielbaumgratz/monitor-surebets"><b>[ Repositório ]</b></a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Baumfinances</b></td>
+        <td>Aplicação web para controle e organização financeira pessoal com dashboard analítico e acompanhamento de transações.</td>
+        <td><code>JavaScript</code> <code>Fintech</code> <code>Web</code></td>
+        <td align="center">
+          <a href="https://github.com/gabrielbaumgratz/Baumfinances"><b>[ Repositório ]</b></a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Projeto-Laravel-TTS</b></td>
+        <td>Serviço de síntese de voz Text-to-Speech (TTS) com processamento de texto e conversão em áudio.</td>
+        <td><code>PHP</code> <code>Laravel</code> <code>TTS API</code></td>
+        <td align="center">
+          <a href="https://github.com/gabrielbaumgratz/Projeto-Laravel-Text-to-Speech-Gabriel"><b>[ Repositório ]</b></a>
+        </td>
+      </tr>
+    </tbody>
   </table>
 
   <br>
@@ -90,13 +121,6 @@
     <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
     <img src="https://img.shields.io/badge/IA_&_Claude_Code-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
   </p>
-
-  <br>
-
-  <!-- ATIVIDADE (HEATMAP LIMPO) -->
-  <h2>Atividade de Código</h2>
-
-  <img src="./contrib-heatmap.svg" width="860" alt="Heatmap de Contribuições" />
 
   <br><br>
 
