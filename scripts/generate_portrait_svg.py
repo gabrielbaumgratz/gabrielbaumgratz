@@ -6,50 +6,62 @@ img_path = "C:/Users/gabri/.gemini/antigravity/scratch/github-profile/photo.jpg"
 out_svg = "C:/Users/gabri/.gemini/antigravity/scratch/github-profile/portrait-ascii.svg"
 
 img = Image.open(img_path)
-w, h = img.size
 
-# Head & shoulders portrait crop
-crop_box = (int(w * 0.28), int(h * 0.22), int(w * 0.72), int(h * 0.64))
+# Precise centered crop on head, cap, and shoulders
+# Head horizontal center is at x=459, cap top is at y=262
+# Crop box (w=380, h=350):
+crop_box = (269, 246, 649, 596)
 cropped = img.crop(crop_box)
 
-# Grayscale & sharpening
 gray = cropped.convert("L")
-sharpened = gray.filter(ImageFilter.UnsharpMask(radius=3, percent=240, threshold=2))
-enhancer = ImageEnhance.Contrast(sharpened)
-gray_contrast = enhancer.enhance(1.6)
+arr = np.array(gray)
 
-# Downsample to terminal grid: 68 columns
-target_cols = 68
-aspect_ratio = cropped.size[1] / cropped.size[0]
-target_rows = int(target_cols * aspect_ratio * 0.52) # ~ 34 rows
+# Clear any stray noise in top corners
+for y in range(arr.shape[0]):
+    for x in range(arr.shape[1]):
+        if y < 45 and (x < 110 or x > 270):
+            arr[y, x] = 0
+
+cleaned = Image.fromarray(arr)
+
+# Sharpening to highlight cap logo, brim, eyes, and smile
+sharpened = cleaned.filter(ImageFilter.UnsharpMask(radius=2.5, percent=300, threshold=2))
+enhancer = ImageEnhance.Contrast(sharpened)
+gray_contrast = enhancer.enhance(1.85)
+
+# Target character grid: 66 columns
+target_cols = 66
+aspect = cropped.size[1] / cropped.size[0]
+target_rows = int(target_cols * aspect * 0.52) # ~ 31 rows
 
 resized = gray_contrast.resize((target_cols, target_rows), Image.Resampling.LANCZOS)
-arr = np.array(resized)
+arr_small = np.array(resized)
 
 RAMP = "   .:-=+*#%@"
 ramp_len = len(RAMP)
 
 ascii_lines = []
-for row in arr:
+for row in arr_small:
     line_chars = []
     for val in row:
-        if val < 45:
+        if val < 46:
             line_chars.append(" ")
         else:
-            idx = int(((val - 45) / (255 - 45)) * (ramp_len - 1))
+            idx = int(((val - 46) / (255 - 46)) * (ramp_len - 1))
             idx = max(0, min(idx, ramp_len - 1))
             line_chars.append(RAMP[idx])
-    line_str = "".join(line_chars)
-    # Trim leading trailing spaces proportionally if needed, or keep fixed length
-    ascii_lines.append(line_str)
+    ascii_lines.append("".join(line_chars))
 
-# SVG Dimensions
+# Trim empty top rows if any (keep 1-2 for margin)
+while len(ascii_lines) > 0 and ascii_lines[0].strip() == "" and len(ascii_lines) > 28:
+    ascii_lines.pop(0)
+
 svg_width = 370
 svg_height = 280
-font_size = 6.2
-line_height = 6.8
-start_y = 42
-start_x = 14
+font_size = 6.4
+line_height = 7.1
+start_y = 44
+start_x = 16
 
 styles = [
     ".bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 6; }",
@@ -58,13 +70,13 @@ styles = [
     ".dot-yellow { fill: #ffbd2e; }",
     ".dot-green { fill: #27c93f; }",
     ".title { fill: #8b949e; font-size: 11px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }",
-    ".ascii-container { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 6.2px; fill: #8b949e; white-space: pre; }",
+    ".ascii-container { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 6.4px; fill: #8b949e; white-space: pre; }",
     "@keyframes rowReveal { 0% { opacity: 0; clip-path: inset(0 100% 0 0); } 100% { opacity: 1; clip-path: inset(0 0 0 0); } }",
     ".row { opacity: 0; animation: rowReveal 0.22s ease-out forwards; }"
 ]
 
 for i in range(len(ascii_lines)):
-    delay = 0.04 + (i * 0.024)
+    delay = 0.03 + (i * 0.022)
     styles.append(f".r{i} {{ animation-delay: {delay:.3f}s; }}")
 
 style_block = "\n    ".join(styles)
@@ -88,7 +100,7 @@ svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_widt
   <circle cx="16" cy="14" r="5" class="dot-red" />
   <circle cx="32" cy="14" r="5" class="dot-yellow" />
   <circle cx="48" cy="14" r="5" class="dot-green" />
-  <text x="70" y="18" class="title">gabriel-portrait.ascii [live]</text>
+  <text x="70" y="18" class="title">gabriel-portrait.ascii [centered]</text>
 
   <!-- ASCII Art Body -->
   <g class="ascii-container">
@@ -99,4 +111,4 @@ svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_widt
 with open(out_svg, "w", encoding="utf-8") as f:
     f.write(svg_content)
 
-print(f"Successfully generated {out_svg} with {len(ascii_lines)} rows.")
+print(f"Generated {out_svg} with {len(ascii_lines)} rows perfectly centered.")
