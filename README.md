@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ANIMAÇÃO SUPERIOR COM AS CORES PANTONE (P 105-8 C, P 48-8 C, 938 C) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=293F76,EE212E,FCEEA8&height=120&section=header" width="100%" weight=80% alt="Header Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=293F76,EE212E,FCEEA8&height=120&section=header" width="100%" alt="Header Wave" />
 
   <!-- BANNER GRÁFICO CUSTOMIZADO -->
   <img src="./banner.png" width="100%" alt="Gabriel Baumgratz Banner" />
@@ -11,7 +11,7 @@
   <!-- BOTÕES DAS REDES E PORTFÓLIO NO TOPO -->
   <p>
     <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Meu%20site-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
+      <img src="https://img.shields.io/badge/Portfólio%20&%20Freelas-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/" target="_blank">
@@ -97,6 +97,28 @@
   </table>
 
   <br>
+
+  <!-- GRÁFICOS & INFOGRÁFICOS -->
+  <h2>Métricas &amp; Estatísticas</h2>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=gabrielbaumgratz&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=EE212E" height="155" alt="Estatísticas do GitHub" />
+    &nbsp;
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielbaumgratz&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="155" alt="Linguagens Mais Utilizadas" />
+  </p>
+
+  <p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=gabrielbaumgratz&theme=radical&hide_border=true&background=0d1117&ring=38bdf8&fire=EE212E&currStreakLabel=38bdf8" height="142" alt="Streak de Contribuições" />
+  </p>
+
+  <br>
+
+  <!-- INFOGRÁFICO DE ATIVIDADE DIÁRIA ANIMADA -->
+  <h3>Atividade de Contribuições</h3>
+
+  <img src="./contrib-heatmap.svg" width="860" alt="Heatmap Animado de Atividade" />
+
+  <br><br>
 
   <!-- TECNOLOGIAS E FERRAMENTAS -->
   <h2>Tecnologias &amp; Habilidades</h2>

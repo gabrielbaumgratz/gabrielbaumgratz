@@ -98,6 +98,28 @@
 
   <br>
 
+  <!-- CHARTS & INFOGRAPHICS -->
+  <h2>Metrics &amp; Infographics</h2>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=gabrielbaumgratz&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&icon_color=EE212E" height="155" alt="GitHub Stats" />
+    &nbsp;
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielbaumgratz&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="155" alt="Top Languages" />
+  </p>
+
+  <p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=gabrielbaumgratz&theme=radical&hide_border=true&background=0d1117&ring=38bdf8&fire=EE212E&currStreakLabel=38bdf8" height="142" alt="Commit Streak" />
+  </p>
+
+  <br>
+
+  <!-- ANIMATED ACTIVITY INFOGRAPHIC -->
+  <h3>Contribution Activity</h3>
+
+  <img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
+
+  <br><br>
+
   <!-- TECH STACK -->
   <h2>Technologies &amp; Skills</h2>
 
