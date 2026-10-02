@@ -11,7 +11,7 @@
   <!-- BOTÕES DAS REDES E PORTFÓLIO NO TOPO -->
   <p>
     <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfólio%20&%20Freelas-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
+      <img src="https://img.shields.io/badge/Meu%20site-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/" target="_blank">
