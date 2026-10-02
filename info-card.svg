@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280" width="490" height="280">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 6; }
+      .bar { fill: #161b22; }
+      .dot-red { fill: #ff5f56; }
+      .dot-yellow { fill: #ffbd2e; }
+      .dot-green { fill: #27c93f; }
+      .txt { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; }
+      .header { fill: #58a6ff; font-weight: bold; }
+      .key { fill: #8b949e; }
+      .val { fill: #c9d1d9; }
+      .highlight { fill: #3fb950; font-weight: 500; }
+      .cursor { fill: #58a6ff; }
+
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .line { opacity: 0; animation: fadeIn 0.35s ease-out forwards; }
+      .l1 { animation-delay: 0.10s; }
+      .l2 { animation-delay: 0.25s; }
+      .l3 { animation-delay: 0.40s; }
+      .l4 { animation-delay: 0.55s; }
+      .l5 { animation-delay: 0.70s; }
+      .l6 { animation-delay: 0.85s; }
+      .l7 { animation-delay: 1.00s; }
+      .l8 { animation-delay: 1.15s; }
+      .cur { animation: blink 1s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Window Card -->
+  <rect width="490" height="280" class="bg" />
+  <path d="M 0 6 C 0 2.68 2.68 0 6 0 L 484 0 C 487.32 0 490 2.68 490 6 L 490 28 L 0 28 Z" class="bar" />
+  <circle cx="16" cy="14" r="5" class="dot-red" />
+  <circle cx="32" cy="14" r="5" class="dot-yellow" />
+  <circle cx="48" cy="14" r="5" class="dot-green" />
+  <text x="70" y="18" fill="#8b949e" font-size="11" font-family="monospace">gabriel@devbox: ~ (neofetch)</text>
+
+  <!-- Content Lines -->
+  <g transform="translate(20, 56)" class="txt">
+    <g class="line l1">
+      <text x="0" y="0" class="header">Gabriel Baumgratz @ workstation</text>
+      <text x="0" y="14" fill="#30363d">----------------------------------------------</text>
+    </g>
+
+    <g class="line l2" transform="translate(0, 34)">
+      <text x="0" y="0" class="key">Role</text>
+      <text x="100" y="0" class="val">Software Engineer &amp; Interface Designer</text>
+    </g>
+
+    <g class="line l3" transform="translate(0, 54)">
+      <text x="0" y="0" class="key">Frontend</text>
+      <text x="100" y="0" class="val">React, Next.js, JavaScript, TypeScript</text>
+    </g>
+
+    <g class="line l4" transform="translate(0, 74)">
+      <text x="0" y="0" class="key">UI &amp; Styling</text>
+      <text x="100" y="0" class="val">Tailwind CSS, Design Systems, Figma</text>
+    </g>
+
+    <g class="line l5" transform="translate(0, 94)">
+      <text x="0" y="0" class="key">Backend</text>
+      <text x="100" y="0" class="val">Node.js, Express, REST APIs, PostgreSQL</text>
+    </g>
+
+    <g class="line l6" transform="translate(0, 114)">
+      <text x="0" y="0" class="key">AI / ML</text>
+      <text x="100" y="0" class="val">Gemini / OpenAI APIs, LLM Agents, Automation</text>
+    </g>
+
+    <g class="line l7" transform="translate(0, 134)">
+      <text x="0" y="0" class="key">Status</text>
+      <text x="100" y="0" class="highlight">Disponivel para Freelas, Contratos &amp; Projetos</text>
+    </g>
+
+    <g class="line l8" transform="translate(0, 164)">
+      <text x="0" y="0" class="header">gabriel:~$</text>
+      <rect x="75" y="14" width="7" height="13" class="cursor cur" />
+    </g>
+  </g>
+</svg>
