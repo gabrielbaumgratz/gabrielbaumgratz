@@ -1,6 +1,10 @@
+<div align="right">
+  <code>LANGUAGE:</code> <b>[ ENGLISH ]</b> &nbsp;|&nbsp; <a href="./README.pt-BR.md"><code>[ PORTUGUÊS ]</code></a>
+</div>
+
 <div align="center">
 
-<!-- 01. HEADER: TERMINAL IDENTITY (ASCII PORTRAIT + SYSTEM INFO) -->
+<!-- 01. HEADER: TERMINAL IDENTITY -->
 <h3><code>gabriel@terminal ~ $ whoami</code></h3>
 
 <table>
@@ -29,12 +33,14 @@
 </div>
 
 ```text
-[NAME]       Gabriel Baumgratz
-[ROLE]       Software Engineer & Interface Designer
-[STACK]      Fullstack (Node.js & React), UI/UX (Tailwind & Design Systems), Artificial Intelligence
-[STATUS]     Disponivel para projetos freelancers, consultoria e desenvolvimento de software
-[WEBSITE]    https://gabrielbaumgratz.vercel.app/
-[LOCATION]   Brasil (UTC-3) / Remoto
+[NAME]       Gabriel Baumgratz de Paula Botaro
+[EDUCATION]  B.S. in Systems Analysis and Development — PUC Minas (2024 - 2027)
+[ROLE]       Software Engineer & AI Practitioner
+[STACK]      React, React Native, Node.js, Python, C#, Tailwind CSS, Firebase
+[SPECIALTY]  Advanced AI Tools (Claude Code, Gemini CLI), UI/UX Systems, Mobile & Cloud
+[STATUS]     Available for Freelance Projects, Contracts & Software Engineering Roles
+[PORTFOLIO]  https://gabrielbaumgratz.vercel.app/
+[LOCATION]   Belo Horizonte, MG, Brazil / Remote Worldwide
 ```
 
 <div align="center">
@@ -47,15 +53,15 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <b>DISPONIBILIDADE PARA PROJETOS &amp; FREELAS</b><br>
-      <sub>Desenvolvimento Web Fullstack, Criacao de Interfaces e Integracoes com IA</sub><br><br>
+      <b>AVAILABLE FOR FREELANCE &amp; CONSULTING</b><br>
+      <sub>Web Applications, Mobile Apps, UI/UX Design &amp; AI Integrations</sub><br><br>
       <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/SITE%20DE%20FREELAS-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Site de Freelas" />
+        <img src="https://img.shields.io/badge/FREELANCE%20WEBSITE-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Freelance Site" />
       </a>
     </td>
     <td align="center" width="50%">
-      <b>CONEXÃO PROFISSIONAL &amp; PROPOSTAS</b><br>
-      <sub>Aberto para networking, oportunidades e contratos</sub><br><br>
+      <b>PROFESSIONAL NETWORKING &amp; INQUIRIES</b><br>
+      <sub>Open for collaboration, software contracts and technical discussions</sub><br><br>
       <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/" target="_blank">
         <img src="https://img.shields.io/badge/LINKEDIN-Gabriel%20Baumgratz-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
       </a>
@@ -65,85 +71,87 @@
 
 <br>
 
-<!-- 05. PORTFOLIO SHOWCASE: FEATURED PROJECTS -->
-<h3><code>gabriel@terminal ~ $ ./portfolio --category all --detailed</code></h3>
+<!-- 05. PORTFOLIO SHOWCASE: VERIFIED PROJECTS -->
+<h3><code>gabriel@terminal ~ $ ./portfolio --featured --detailed</code></h3>
 
 <table>
   <thead>
     <tr>
-      <th align="left">ID // Projeto</th>
-      <th align="left">Arquitetura &amp; Solucao</th>
-      <th align="left">Stack Tecnico</th>
-      <th align="center">Acesso</th>
+      <th align="left">Project</th>
+      <th align="left">Architecture &amp; Core Solution</th>
+      <th align="left">Stack</th>
+      <th align="center">Access</th>
     </tr>
   </thead>
   <tbody>
-    <!-- PROJETO 01: FULLSTACK & AI -->
+    <!-- PROJECT 01: AI TALENT SCAN -->
     <tr>
       <td>
-        <b>[01] Agentic Workflow</b><br>
-        <sub>Orquestracao Autonoma</sub>
+        <b>[01] AI Talent Scan</b><br>
+        <sub>AI &amp; ATS Intelligence</sub>
       </td>
       <td>
-        Pipeline de processamento com LLMs (Gemini / OpenAI), streaming de tokens em tempo real, execucao de function calling e integracao com microservicos assincronos.
+        Intelligent resume parsing and enhancement platform powered by LLMs (Claude / Gemini). Automates qualification matching, identifies skill gaps, and prepares candidates for Applicant Tracking Systems (ATS).
       </td>
       <td>
-        <code>Node.js</code> <code>React</code><br>
-        <code>Gemini API</code> <code>Tailwind</code>
+        <code>Python</code> <code>React</code><br>
+        <code>Gemini API</code> <code>FastAPI</code>
       </td>
       <td align="center">
-        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Ver no Site]</code></a>
+        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Live Demo]</code></a><br>
+        <a href="https://github.com/gabrielbaumgratz"><code>[Source]</code></a>
       </td>
     </tr>
-    <!-- PROJETO 02: UI/UX & DESIGN SYSTEM -->
+    <!-- PROJECT 02: MOBILE MANAGEMENT APP -->
     <tr>
       <td>
-        <b>[02] Design System Core</b><br>
-        <sub>Interface Engine</sub>
+        <b>[02] Management Mobile App</b><br>
+        <sub>Fullstack Mobile Engine</sub>
       </td>
       <td>
-        Biblioteca de componentes web acessiveis (WAI-ARIA), padronizacao tipografica e tokens de design customizados para Tailwind, focando em fluidez e microinteracoes.
+        Complete cross-platform mobile application developed with React Native. Built with cloud-native authentication and real-time database synchronization via Google Firebase and Cloud Firestore.
       </td>
       <td>
-        <code>TypeScript</code> <code>Tailwind</code><br>
-        <code>Figma</code> <code>Storybook</code>
+        <code>React Native</code> <code>Firebase</code><br>
+        <code>Cloud Firestore</code> <code>JS</code>
       </td>
       <td align="center">
-        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Ver no Site]</code></a>
+        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Live Demo]</code></a><br>
+        <a href="https://github.com/gabrielbaumgratz"><code>[Source]</code></a>
       </td>
     </tr>
-    <!-- PROJETO 03: FULLSTACK WEB PLATFORM -->
+    <!-- PROJECT 03: INTERFACE ENGINE / PORTFOLIO -->
     <tr>
       <td>
-        <b>[03] Platform Hub</b><br>
-        <sub>Fullstack Web App</sub>
+        <b>[03] Interface Engine &amp; Portfolio</b><br>
+        <sub>Web Application &amp; UI/UX</sub>
       </td>
       <td>
-        Aplicacao web completa com painel de controle analitico, gerenciamento de estado complexo, autenticacao segura com JWT e camada de cache em memoria.
+        Production-grade personal showcase platform engineered with modern styling tokens, Tailwind CSS, accessible components (a11y), and zero-overhead performance.
       </td>
       <td>
-        <code>React</code> <code>Node.js</code><br>
-        <code>PostgreSQL</code> <code>Express</code>
+        <code>React</code> <code>Tailwind CSS</code><br>
+        <code>Figma</code> <code>Vercel</code>
       </td>
       <td align="center">
-        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Ver no Site]</code></a>
+        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Live Demo]</code></a>
       </td>
     </tr>
-    <!-- PROJETO 04: BACKEND SERVICE -->
+    <!-- PROJECT 04: CLOUD & DATA PIPELINES -->
     <tr>
       <td>
-        <b>[04] API Gateway &amp; Engine</b><br>
-        <sub>Backend Services</sub>
+        <b>[04] Cloud &amp; Data Pipeline Hub</b><br>
+        <sub>DevOps &amp; Data Analysis</sub>
       </td>
       <td>
-        Servico RESTful de alto rendimento com arquitetura em camadas, validacao rigorosa de esquemas, documentacao automatizada e testes de integracao continuos.
+        Exploratory data engineering pipelines and cloud container deployments using Python (Pandas/NumPy), Google Cloud Platform (GCP) DevOps workflows, and Swift (HackaTruck iOS MakerSpace).
       </td>
       <td>
-        <code>Node.js</code> <code>Express</code><br>
-        <code>PostgreSQL</code> <code>Docker</code>
+        <code>Python</code> <code>Pandas</code><br>
+        <code>Google Cloud</code> <code>Docker</code>
       </td>
       <td align="center">
-        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Ver no Site]</code></a>
+        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Overview]</code></a>
       </td>
     </tr>
   </tbody>
@@ -158,36 +166,39 @@
 
 ```json
 {
-  "frontend": [
-    "JavaScript (ESNext)",
+  "programming_languages": [
+    "JavaScript (ES6+)",
     "TypeScript",
+    "Python",
+    "C#",
+    "HTML5 / CSS3"
+  ],
+  "frontend_and_mobile": [
     "React.js",
-    "Next.js"
-  ],
-  "interface_and_design": [
+    "React Native",
     "Tailwind CSS",
-    "Figma Prototyping",
-    "Design Systems",
+    "Figma",
     "Responsive Layouts",
-    "Web Accessibility (a11y)"
+    "Web Accessibility (WAI-ARIA)"
   ],
-  "backend_and_data": [
+  "backend_and_cloud": [
     "Node.js",
-    "Express",
+    "Firebase Authentication",
+    "Cloud Firestore",
     "RESTful APIs",
-    "PostgreSQL",
-    "Database Modeling"
+    "Google Cloud Platform (GCP)"
   ],
-  "artificial_intelligence": [
-    "LLM Integration (Gemini & OpenAI)",
-    "Prompt Architecture",
-    "Autonomous Agents & Tool Calling",
-    "API Automation"
+  "ai_engineering_and_data": [
+    "Claude Code & Anthropic Foundations",
+    "Gemini CLI & Google Gemini AI",
+    "OpenAI API Integration",
+    "Data Analysis (Pandas & NumPy)"
   ],
-  "dev_workflow": [
+  "tooling_and_workflow": [
     "Git & GitHub Actions",
-    "CI/CD Pipelines",
-    "Linux / Shell Scripting"
+    "Power BI",
+    "Linux / Shell Scripting",
+    "Hardware & Network Configuration"
   ]
 }
 ```
@@ -196,15 +207,15 @@
 
 <br>
 
-<!-- 07. CONNECT & OFFICIAL SOCIAL CHANNELS -->
+<!-- 07. CONNECT & OFFICIAL CHANNELS -->
 <h3><code>gabriel@terminal ~ $ ./connect --channels</code></h3>
 
 <table>
   <tr>
     <td align="left">
-      <code>[WORK]</code> <b>Site de Freelas &amp; Portfólio</b><br>
+      <code>[WORK]</code> <b>Freelance Website &amp; Portfolio</b><br>
       <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/gabrielbaumgratz.vercel.app-0d1117?style=flat-square&logo=vercel&logoColor=238636" alt="Site de Freelas" />
+        <img src="https://img.shields.io/badge/gabrielbaumgratz.vercel.app-0d1117?style=flat-square&logo=vercel&logoColor=238636" alt="Freelance Site" />
       </a>
     </td>
     <td align="left">
