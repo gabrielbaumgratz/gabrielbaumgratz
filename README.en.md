@@ -33,11 +33,7 @@
       </td>
       <td valign="middle" width="480">
         <h2>Gabriel Baumgratz</h2>
-        <p>Software Engineer building responsive web and mobile applications with practical AI integrations.</p>
-        <p><b>Focus:</b> Tech Internship &amp; Junior Positions (Software Engineering / Fullstack / AI)</p>
-        <p><b>Education:</b> Systems Analysis and Development — PUC Minas (2024 - 2027)</p>
         <p><b>Core Stack:</b> React, React Native, Node.js, Python, Tailwind CSS &amp; AI APIs</p>
-        <p><b>Availability:</b> Open for internship roles, engineering opportunities, and freelance projects</p>
       </td>
     </tr>
   </table>

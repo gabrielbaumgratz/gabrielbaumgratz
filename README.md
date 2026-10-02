@@ -33,11 +33,7 @@
       </td>
       <td valign="middle" width="480">
         <h2>Gabriel Baumgratz</h2>
-        <p>Desenvolvedor de Software com atuação em aplicações web, mobile e integrações com inteligência artificial.</p>
-        <p><b>Foco:</b> Estágio em TI &amp; Vagas Jr (Desenvolvimento / Fullstack / IA)</p>
-        <p><b>Formação:</b> Análise e Desenvolvimento de Sistemas — PUC Minas (2024 - 2027)</p>
         <p><b>Stack Principal:</b> React, React Native, Node.js, Python, Tailwind CSS &amp; APIs de IA</p>
-        <p><b>Disponibilidade:</b> Aberto para oportunidades de estágio, contratação e projetos freela</p>
       </td>
     </tr>
   </table>
