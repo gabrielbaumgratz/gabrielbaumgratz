@@ -1,115 +1,111 @@
 <div align="right">
-  <code>LANGUAGE:</code> <b>[ ENGLISH ]</b> &nbsp;|&nbsp; <a href="./README.pt-BR.md"><code>[ PORTUGUÊS ]</code></a>
+  <code>EDITION:</code> <b>[ ENGLISH (GLOBAL) ]</b> &nbsp;|&nbsp; <a href="./README.pt-BR.md"><code>[ PORTUGUÊS (BR) ]</code></a>
 </div>
 
 <div align="center">
 
-<!-- 01. HEADER: TERMINAL IDENTITY -->
-<h3><code>gabriel@terminal ~ $ whoami</code></h3>
+<!-- CINEMATIC / GAMER HERO BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=120&section=header&text=GABRIEL%20BAUMGRATZ&fontSize=38&fontColor=38bdf8&desc=SOFTWARE%20ENGINEER%20//%20AI%20PRACTITIONER%20//%20INTERFACE%20DESIGNER&descSize=14&descColor=94a3b8" width="100%" alt="Header Banner" />
 
+<br>
+
+<!-- PLAYER PROFILE / CINEMATIC INTRO -->
 <table>
   <tr>
-    <td valign="top" width="370">
-      <img src="./portrait-ascii.svg" width="370" alt="Terminal ASCII Portrait — Gabriel Baumgratz" />
+    <td align="center" valign="middle" width="370">
+      <img src="./portrait-ascii.svg" width="360" alt="Character Portrait // Gabriel Baumgratz" /><br>
+      <sub><code>// AVATAR: GABRIEL_BAUMGRATZ.ASCII</code></sub>
     </td>
     <td valign="top" width="490">
-      <img src="./info-card.svg" width="490" alt="System Info Neofetch — Gabriel Baumgratz" />
+      <b>[ PLAYER 01 // PROFESSIONAL DOSSIER ]</b><br><br>
+      <b>TARGET OBJECTIVE:</b> Software Engineering Intern / Junior Developer<br>
+      <b>ACADEMICS:</b> Systems Analysis &amp; Development — PUC Minas (2024 - 2027)<br>
+      <b>CURRENT EXP:</b> IT Intern @ Belo Horizonte City Hall (PBH)<br>
+      <b>SPECIALIZATION:</b> React, React Native, Node.js, Python, Tailwind &amp; AI Integration<br>
+      <b>AVAILABILITY:</b> Open for Internships, Junior Engineering &amp; Freelance Contracts<br><br>
+      <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
+        <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+      </a>
+      &nbsp;
+      <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/" target="_blank">
+        <img src="https://img.shields.io/badge/LINKEDIN-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
     </td>
   </tr>
 </table>
 
 <br>
 
-<!-- 02. ACTIVITY: LIVE CONTRIBUTION HEATMAP -->
-<h3><code>gabriel@terminal ~ $ ./contributions.sh --year 2026 --animated</code></h3>
+<!-- CHAPTER 01: RECRUITER EXECUTIVE SUMMARY -->
+<h3><code>// SCENE 01: EXECUTIVE SUMMARY</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Animated Contribution Heatmap" />
+<p align="left">
+Undergraduate in <b>Systems Analysis and Development at PUC Minas</b> with institutional hands-on experience in tech infrastructure at the <b>Belo Horizonte City Hall</b>. Combines practical software engineering skills (React, React Native, Node.js, Python, C#) with advanced AI fluency (Claude Code, Gemini CLI, OpenAI integrations). Passionate about crafting high-performance user interfaces, scalable architectures, and intelligent digital workflows.
+</p>
+
+<br>
+
+<!-- CHAPTER 02: VISUAL STATS & TELEMETRY -->
+<h3><code>// SCENE 02: TELEMETRY &amp; STATS MATRIX</code></h3>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gabrielbaumgratz&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&icon_color=f43f5e" height="155" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielbaumgratz&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" height="155" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gabrielbaumgratz&theme=radical&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" height="142" alt="GitHub Streak Stats" />
+</p>
+
+<br>
+
+<!-- CHAPTER 03: LIVE ACTIVITY TIMELINE -->
+<h3><code>// SCENE 03: REAL-TIME CONTRIBUTION TIMELINE</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Activity Heatmap" />
 
 <br><br>
 
-<!-- 03. EXECUTIVE SUMMARY -->
-<h3><code>gabriel@terminal ~ $ cat overview.log</code></h3>
-
-</div>
-
-```text
-[NAME]       Gabriel Baumgratz de Paula Botaro
-[EDUCATION]  B.S. in Systems Analysis and Development — PUC Minas (2024 - 2027)
-[ROLE]       Software Engineer & AI Practitioner
-[STACK]      React, React Native, Node.js, Python, C#, Tailwind CSS, Firebase
-[SPECIALTY]  Advanced AI Tools (Claude Code, Gemini CLI), UI/UX Systems, Mobile & Cloud
-[STATUS]     Available for Freelance Projects, Contracts & Software Engineering Roles
-[PORTFOLIO]  https://gabrielbaumgratz.vercel.app/
-[LOCATION]   Belo Horizonte, MG, Brazil / Remote Worldwide
-```
-
-<div align="center">
-
-<br>
-
-<!-- 04. FREELANCE & SERVICES CTA BUTTONS -->
-<h3><code>gabriel@terminal ~ $ ./services --status</code></h3>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b>AVAILABLE FOR FREELANCE &amp; CONSULTING</b><br>
-      <sub>Web Applications, Mobile Apps, UI/UX Design &amp; AI Integrations</sub><br><br>
-      <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/FREELANCE%20WEBSITE-gabrielbaumgratz.vercel.app-238636?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Freelance Site" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <b>PROFESSIONAL NETWORKING &amp; INQUIRIES</b><br>
-      <sub>Open for collaboration, software contracts and technical discussions</sub><br><br>
-      <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/" target="_blank">
-        <img src="https://img.shields.io/badge/LINKEDIN-Gabriel%20Baumgratz-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- 05. PORTFOLIO SHOWCASE: VERIFIED PROJECTS -->
-<h3><code>gabriel@terminal ~ $ ./portfolio --featured --detailed</code></h3>
+<!-- CHAPTER 04: MAIN QUESTS / FEATURED WORK -->
+<h3><code>// SCENE 04: MAIN QUESTS // FEATURED PROJECTS</code></h3>
 
 <table>
   <thead>
     <tr>
-      <th align="left">Project</th>
-      <th align="left">Architecture &amp; Core Solution</th>
-      <th align="left">Stack</th>
-      <th align="center">Access</th>
+      <th align="left">Mission / Project</th>
+      <th align="left">Mission Brief &amp; Architecture</th>
+      <th align="left">Loadout / Stack</th>
+      <th align="center">Action</th>
     </tr>
   </thead>
   <tbody>
-    <!-- PROJECT 01: AI TALENT SCAN -->
+    <!-- MISSION 01: AI TALENT SCAN -->
     <tr>
       <td>
-        <b>[01] AI Talent Scan</b><br>
-        <sub>AI &amp; ATS Intelligence</sub>
+        <b>[QUEST 01] AI Talent Scan</b><br>
+        <sub>Academic Project &bull; 2026</sub>
       </td>
       <td>
-        Intelligent resume parsing and enhancement platform powered by LLMs (Claude / Gemini). Automates qualification matching, identifies skill gaps, and prepares candidates for Applicant Tracking Systems (ATS).
+        Artificial Intelligence platform for automated resume evaluation. Scans candidate submissions against job requisitions and ATS (Applicant Tracking System) criteria to detect technical gaps and optimize profile alignment.
       </td>
       <td>
         <code>Python</code> <code>React</code><br>
-        <code>Gemini API</code> <code>FastAPI</code>
+        <code>Gemini / Claude</code> <code>FastAPI</code>
       </td>
       <td align="center">
         <a href="https://gabrielbaumgratz.vercel.app/"><code>[Live Demo]</code></a><br>
         <a href="https://github.com/gabrielbaumgratz"><code>[Source]</code></a>
       </td>
     </tr>
-    <!-- PROJECT 02: MOBILE MANAGEMENT APP -->
+    <!-- MISSION 02: MOBILE APP -->
     <tr>
       <td>
-        <b>[02] Management Mobile App</b><br>
-        <sub>Fullstack Mobile Engine</sub>
+        <b>[QUEST 02] Management Mobile App</b><br>
+        <sub>Extracurricular Project &bull; 116h</sub>
       </td>
       <td>
-        Complete cross-platform mobile application developed with React Native. Built with cloud-native authentication and real-time database synchronization via Google Firebase and Cloud Firestore.
+        Complete mobile solution built with React Native for real-time task and resource administration. Integrated with Google Firebase Authentication and Cloud Firestore for low-latency synchronization.
       </td>
       <td>
         <code>React Native</code> <code>Firebase</code><br>
@@ -120,38 +116,38 @@
         <a href="https://github.com/gabrielbaumgratz"><code>[Source]</code></a>
       </td>
     </tr>
-    <!-- PROJECT 03: INTERFACE ENGINE / PORTFOLIO -->
+    <!-- MISSION 03: INTERFACE ENGINE & PORTFOLIO -->
     <tr>
       <td>
-        <b>[03] Interface Engine &amp; Portfolio</b><br>
-        <sub>Web Application &amp; UI/UX</sub>
+        <b>[QUEST 03] Interface Engine &amp; Portfolio</b><br>
+        <sub>Production Showcase &bull; Live</sub>
       </td>
       <td>
-        Production-grade personal showcase platform engineered with modern styling tokens, Tailwind CSS, accessible components (a11y), and zero-overhead performance.
+        High-impact web platform showcasing engineering projects and freelance client services. Designed with modern typographic hierarchy, Tailwind CSS design tokens, and fluid micro-interactions.
       </td>
       <td>
         <code>React</code> <code>Tailwind CSS</code><br>
         <code>Figma</code> <code>Vercel</code>
       </td>
       <td align="center">
-        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Live Demo]</code></a>
+        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Launch App]</code></a>
       </td>
     </tr>
-    <!-- PROJECT 04: CLOUD & DATA PIPELINES -->
+    <!-- MISSION 04: INSTITUTIONAL IT SUPPORT -->
     <tr>
       <td>
-        <b>[04] Cloud &amp; Data Pipeline Hub</b><br>
-        <sub>DevOps &amp; Data Analysis</sub>
+        <b>[QUEST 04] IT Infrastructure Support</b><br>
+        <sub>Belo Horizonte City Hall &bull; Ongoing</sub>
       </td>
       <td>
-        Exploratory data engineering pipelines and cloud container deployments using Python (Pandas/NumPy), Google Cloud Platform (GCP) DevOps workflows, and Swift (HackaTruck iOS MakerSpace).
+        Institutional IT technical support, workstation maintenance, network diagnostics, institutional software deployment, and administrative digital workflow optimization.
       </td>
       <td>
-        <code>Python</code> <code>Pandas</code><br>
-        <code>Google Cloud</code> <code>Docker</code>
+        <code>Networking</code> <code>Hardware</code><br>
+        <code>Windows / Linux</code> <code>Workflow</code>
       </td>
       <td align="center">
-        <a href="https://gabrielbaumgratz.vercel.app/"><code>[Overview]</code></a>
+        <a href="https://www.linkedin.com/in/gabriel-baumgratz-a1a733308/"><code>[LinkedIn]</code></a>
       </td>
     </tr>
   </tbody>
@@ -159,63 +155,49 @@
 
 <br>
 
-<!-- 06. TECHNICAL STACK & CAPABILITIES -->
-<h3><code>gabriel@terminal ~ $ cat stack-manifest.json</code></h3>
+<!-- CHAPTER 05: SKILL TREE / INVENTORY -->
+<h3><code>// SCENE 05: SKILL TREE &amp; INVENTORY</code></h3>
 
-</div>
-
-```json
-{
-  "programming_languages": [
-    "JavaScript (ES6+)",
-    "TypeScript",
-    "Python",
-    "C#",
-    "HTML5 / CSS3"
-  ],
-  "frontend_and_mobile": [
-    "React.js",
-    "React Native",
-    "Tailwind CSS",
-    "Figma",
-    "Responsive Layouts",
-    "Web Accessibility (WAI-ARIA)"
-  ],
-  "backend_and_cloud": [
-    "Node.js",
-    "Firebase Authentication",
-    "Cloud Firestore",
-    "RESTful APIs",
-    "Google Cloud Platform (GCP)"
-  ],
-  "ai_engineering_and_data": [
-    "Claude Code & Anthropic Foundations",
-    "Gemini CLI & Google Gemini AI",
-    "OpenAI API Integration",
-    "Data Analysis (Pandas & NumPy)"
-  ],
-  "tooling_and_workflow": [
-    "Git & GitHub Actions",
-    "Power BI",
-    "Linux / Shell Scripting",
-    "Hardware & Network Configuration"
-  ]
-}
-```
-
-<div align="center">
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <b>[TIER 1] CODING &amp; MOBILE</b><br>
+      &bull; React / React Native<br>
+      &bull; JavaScript (ES6+) / TypeScript<br>
+      &bull; Python<br>
+      &bull; C#<br>
+      &bull; HTML5 / CSS3 / Tailwind
+    </td>
+    <td valign="top" width="33%">
+      <b>[TIER 2] AI &amp; CLOUD SYSTEMS</b><br>
+      &bull; Claude Code (Anthropic)<br>
+      &bull; Gemini CLI (Google Gemini)<br>
+      &bull; Firebase / Cloud Firestore<br>
+      &bull; Google Cloud / DevOps Immersion<br>
+      &bull; Pandas &amp; NumPy Data Wrangling
+    </td>
+    <td valign="top" width="34%">
+      <b>[TIER 3] TOOLS &amp; WORKFLOW</b><br>
+      &bull; Git &amp; GitHub Actions CI/CD<br>
+      &bull; Figma Design Systems<br>
+      &bull; Power BI &amp; Excel Analytics<br>
+      &bull; Network &amp; Hardware Diagnostics<br>
+      &bull; English: Intermediate (B1)
+    </td>
+  </tr>
+</table>
 
 <br>
 
-<!-- 07. CONNECT & OFFICIAL CHANNELS -->
-<h3><code>gabriel@terminal ~ $ ./connect --channels</code></h3>
+<!-- CHAPTER 06: MULTIPLAYER / CONNECT -->
+<h3><code>// SCENE 06: CO-OP &amp; COMMUNICATIONS</code></h3>
 
 <table>
   <tr>
     <td align="left">
       <code>[WORK]</code> <b>Freelance Website &amp; Portfolio</b><br>
       <a href="https://gabrielbaumgratz.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/gabrielbaumgratz.vercel.app-0d1117?style=flat-square&logo=vercel&logoColor=238636" alt="Freelance Site" />
+        <img src="https://img.shields.io/badge/gabrielbaumgratz.vercel.app-0d1117?style=flat-square&logo=vercel&logoColor=238636" alt="Portfolio" />
       </a>
     </td>
     <td align="left">
@@ -234,6 +216,6 @@
 </table>
 
 <br>
-<sub>Terminal environment profile — Gabriel Baumgratz — Built with animated SVGs, zero emojis, and automated CI/CD refresh.</sub>
+<sub>Directed by Gabriel Baumgratz &bull; Built with real ASCII vector rendering, live telemetry, and CI/CD pipelines &bull; 2026</sub>
 
 </div>
