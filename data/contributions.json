@@ -1843,14 +1843,14 @@
     },
     {
       "date": "2026-10-01",
-      "count": 2,
+      "count": 3,
       "level": 1
     },
     {
       "date": "2026-10-02",
-      "count": 1,
+      "count": 2,
       "level": 1
     }
   ],
-  "total": 161
+  "total": 163
 }
