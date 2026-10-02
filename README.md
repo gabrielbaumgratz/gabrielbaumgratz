@@ -1,8 +1,5 @@
 <div align="center">
 
-  <!-- ANIMAÇÃO SUPERIOR COM AS CORES PANTONE (P 105-8 C, P 48-8 C, 938 C) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=293F76,EE212E,FCEEA8&height=120&section=header" width="100%" alt="Header Wave" />
-
   <!-- BANNER GRÁFICO CUSTOMIZADO -->
   <img src="./banner.png" width="100%" alt="Gabriel Baumgratz Banner" />
 
