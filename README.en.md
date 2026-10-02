@@ -4,7 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=293F76,EE212E,FCEEA8&height=120&section=header" width="100%" alt="Header Wave" />
 
   <!-- CUSTOM GRAPHIC BANNER -->
-  <img src="./banner.png" width="100%" alt="Gabriel Baumgratz Banner" />
+  <img src="./banner-v2.png" width="100%" alt="Gabriel Baumgratz Banner" />
 
   <br><br>
 
